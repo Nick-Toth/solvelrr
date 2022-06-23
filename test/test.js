@@ -171,6 +171,7 @@ function runExecutionTimeTest(coefficients, initial_terms, non_homogeneous_term)
 let failed_mem_opt_tests = runCorrectnessTests(true),     // with memory optimization
     failed_no_mem_opt_tests = runCorrectnessTests(false); // without memory optimization
 
+
 // Compares the execution time of solveLRR with and without optimization.
 // Uses the recurrence from correctness test 3, whose values are always
 // bounded between -2 and 2, so that we can test large inputs. 
