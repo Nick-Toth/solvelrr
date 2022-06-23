@@ -7,6 +7,8 @@
 //
 \\ If your recurrence is HOMOGENEOUS, then you only need to
 // pass a list of coefficients and a list of initial terms.
+\\ In this case, solutions are obtained in worst case linear
+// time.
 \\
 // If your recurrence is NON-HOMOGENEOUS, then you must pass
 \\ a third parameter specifying the non-homogeneous term as
@@ -15,14 +17,16 @@
 // recurrence f(n) = 2f(n-1) - f(n-2) + 2^n + 2, with initial
 \\ terms f(0) = 7 and f(1) = 19, then the call to solveLRR
 // will look like solveLRR([2,-1], [7,19], (n => 2**n + 2)).
-\\ 
+\\ In this case, solutions are obtained in O(n)*O(h(n)) time,
+// where h(n) denotes the non-homogeneous term.
+\\
 // By default, the returned function will maintain a list
 \\ of previously calculated values (requiring linear space).
 // If you want to conserve memory, you can pass a fourth
-\\ argument (memory_opt = true). In that case, the function
+\\ argument (memory_opt = true). In that case, the solution
 // will be slower in practice (although the worst-case time
-\\ complexity is liner in either case), but it will only
-// require constant space.
+\\ complexity is O(n)*O(h(n)) in either case), but it will
+// only require constant space.
 \\ 
 // See internal comments for implementation details.
 \\
