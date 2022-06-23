@@ -43,10 +43,11 @@ command to run if program contains helper info
   Nick G. Toth
 
 ## Version History
-
+<!--
 * 0.2
     * Various bug fixes and optimizations
     * See [commit change]() or [release history]()
+-->
 * 0.1
     * Initial Release
 
