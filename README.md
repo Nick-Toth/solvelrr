@@ -14,6 +14,10 @@ By default, the returned function will maintain a list of previously calculated 
 
 It is possible to achieve more efficient solutions to these problems by solving for the roots of characteristic polynomials, but that method would require unreliable numerical methods when dealing with higher order recurrences. solvelrr was designed to be general, reliable, simple, and dependency-free.
 
+## Warning About Precision
+
+I'm not using any special data types. Calculations for large terms may fail. For example, solvelrr can only calculate up to the 78th fibonacci number. If you need better performance, you're better off using another method. I expect to make solvelrr more scalable in the future!
+
 ## Getting Started
 
 ### Install
