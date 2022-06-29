@@ -2,7 +2,7 @@
   "name": "solvelrr",
   "version": "1.0.0",
   "description": "A lightweight NPM package for solving linear recurrence relations.",
-  "main": "index.js",
+  "main": "index.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
