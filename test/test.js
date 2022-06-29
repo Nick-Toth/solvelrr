@@ -3,8 +3,8 @@
 // **************************************
 
 // Import the solvelrr package.
-//const solveLRR = require('solvelrr'); // npm package import.
-const solveLRR = require('../package/index.min.js'); // Local import.
+const solveLRR = require('solvelrr'); // npm package import.
+//const solveLRR = require('../package/index.min.js'); // Local import.
 
 // big.js isn't a dependency of solvelrr. I'm importing it here to
 // test solvelrr's generalized arithmetic parameters. Of course,
