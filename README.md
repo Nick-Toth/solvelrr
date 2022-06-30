@@ -46,6 +46,7 @@ const fibonacci = solveLRR([_=>1,_=>1], [1,1])
 First install big.js with the command ```npm install big.js```
 ```
 const Big = require('big.js'),
+      solveLRR = require('solvelrr'),
       coefficients = [_=>Big(1), _=>Big(1)], // Coefficients as functions from a Non-Negative-Integer to a number of type Big.
       initial_terms = [Big(1), Big(1)],      // Initial terms of type Big.
       non_hom_term = (_ => Big(0)),          // A non-homogeneous term as a function from a Non-Negative-Integer to a number of type Big.
