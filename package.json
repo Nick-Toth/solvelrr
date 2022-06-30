@@ -1,5 +1,5 @@
 {
-  "name": "@NickGThomas/solvelrr",
+  "name": "solvelrr",
   "version": "1.0.0",
   "description": "A lightweight NPM package for solving linear recurrence relations.",
   "main": "package/index.min.js",
