@@ -1,6 +1,6 @@
 {
   "name": "solvelrr",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A lightweight NPM package for solving linear recurrence relations.",
   "main": "package/index.min.js",
   "scripts": {
